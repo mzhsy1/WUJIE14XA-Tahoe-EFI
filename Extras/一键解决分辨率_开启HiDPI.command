@@ -15,7 +15,7 @@ echo ""
 echo "请选择操作："
 echo " 1) 修复 BetterDisplay（清除隔离属性，解决秒退/无法打开）"
 echo " 2) 清理 WindowServer 屏幕缓存（解决改分辨率导致的黑屏/死锁）"
-echo " 3) 运行国内 Gitee 一键 HiDPI 脚本（免常驻后台，开启原生 5 档缩放）"
+echo " 3) 运行 GitHub 上游 one-key-hidpi 脚本"
 echo " 4) 全套一键体检与清理（执行 1 + 2）"
 echo " 0) 退出"
 echo ""
@@ -41,8 +41,13 @@ case "$choice" in
         ;;
     3)
         echo ""
-        echo "[*] 正在从 Gitee 极速下载并运行 one-key-hidpi 脚本..."
-        bash -c "$(curl -fsSL https://gitee.com/xzhih/one-key-hidpi/raw/master/hidpi.sh)"
+        echo "[*] 正在从 GitHub 下载 one-key-hidpi 脚本..."
+        hidpi_url="https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh"
+        if hidpi_script=$(curl -fsSL "$hidpi_url") && [ -n "$hidpi_script" ]; then
+            /bin/bash -c "$hidpi_script"
+        else
+            echo "[!] 下载失败。可打开 https://github.com/xzhih/one-key-hidpi 下载 ZIP，解压后运行 hidpi.command。"
+        fi
         ;;
     4)
         echo ""

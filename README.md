@@ -17,7 +17,7 @@
 
 ## HiDPI
 
-在 macOS 上打开 `Extras/一键解决分辨率_开启HiDPI.command`，也可用 `bash` 运行。菜单包含 BetterDisplay 隔离属性处理、WindowServer 显示配置重置以及下载并执行上游 one-key-hidpi。脚本内的分辨率提示来自 14 Pro，应以本机屏幕实际支持的设置为准。[原脚本](https://github.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi/blob/d631f900a4eb36012ab6ba247eb48122b8600c3c/scripts/%E4%B8%80%E9%94%AE%E8%A7%A3%E5%86%B3%E5%88%86%E8%BE%A8%E7%8E%87_%E5%BC%80%E5%90%AFHiDPI.command)
+在 macOS 上打开 `Extras/一键解决分辨率_开启HiDPI.command`，也可用 `bash` 运行。菜单包含 BetterDisplay 隔离属性处理、WindowServer 显示配置重置，以及从 GitHub 下载并执行上游 one-key-hidpi。如果第三项无法联网，可从上游下载 ZIP，解压后运行 `hidpi.command`。脚本内的分辨率提示来自 14 Pro，应以本机屏幕实际支持的设置为准。[原脚本](https://github.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi/blob/d631f900a4eb36012ab6ba247eb48122b8600c3c/scripts/%E4%B8%80%E9%94%AE%E8%A7%A3%E5%86%B3%E5%88%86%E8%BE%A8%E7%8E%87_%E5%BC%80%E5%90%AFHiDPI.command) · [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 
 ## 组件来源
 
