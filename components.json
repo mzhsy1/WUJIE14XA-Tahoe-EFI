@@ -1,0 +1,419 @@
+[
+  {
+    "url": "https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.8/OpenCore-1.0.8-DEBUG.zip",
+    "sha256": "3f5f42b85703cf2c08e8dcd9245a52fb4326c9f4ef335c75b49f516cbbe131c6",
+    "files": {
+      "EFI/BOOT/BOOTx64.efi": {
+        "member": "X64/EFI/BOOT/BOOTx64.efi",
+        "sha256": "7b26e33bfd84fbc5025fcb16994f7eda3224d15edcfc004d71c8761e08a766fd"
+      },
+      "EFI/OC/OpenCore.efi": {
+        "member": "X64/EFI/OC/OpenCore.efi",
+        "sha256": "11ba0b763d765fb82187214d1fa2ee5a9330f851461c12e34d532b7b91097875"
+      },
+      "EFI/OC/Drivers/OpenRuntime.efi": {
+        "member": "X64/EFI/OC/Drivers/OpenRuntime.efi",
+        "sha256": "cf2df818f7510ca1be321f1ff6481fcbe246c92b16a905ffc5ff654158e05b66"
+      },
+      "EFI/OC/Drivers/OpenHfsPlus.efi": {
+        "member": "X64/EFI/OC/Drivers/OpenHfsPlus.efi",
+        "sha256": "ad071af5173d840ad9061a6c62b0f6171fd9f1fda7c44cd95705b432dfdfd1cb"
+      }
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.1-RELEASE.zip",
+    "sha256": "07b266145906db41f4b13a7938fbb173ea28888cc1fa65f84417f8820adc961e",
+    "files": {
+      "EFI/OC/Kexts/AMFIPass.kext/Contents/_CodeSignature/CodeResources": {
+        "member": "AMFIPass.kext/Contents/_CodeSignature/CodeResources",
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+      },
+      "EFI/OC/Kexts/AMFIPass.kext/Contents/Info.plist": {
+        "member": "AMFIPass.kext/Contents/Info.plist",
+        "sha256": "eb3fda04c0e8c8ce0ef4cfc984dcfb771db6aee476d379bd4bc3b7a74a00e4e9"
+      },
+      "EFI/OC/Kexts/AMFIPass.kext/Contents/MacOS/AMFIPass": {
+        "member": "AMFIPass.kext/Contents/MacOS/AMFIPass",
+        "sha256": "4c35bc196d35c69b5f9dca83fe733801211c7828716f51585c7f5450039ca884"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip",
+    "sha256": "470417c4958dd6ecb982182140a6b76cf85f847c15f1b0f6f59617d5abcc5f76",
+    "files": {
+      "EFI/OC/Kexts/AppleMCEReporterDisabler.kext/Contents/Info.plist": {
+        "member": "AppleMCEReporterDisabler.kext/Contents/Info.plist",
+        "sha256": "597ee9b2c34ef29bc6b9c2774c2e0c41e2a7847e6a99bdad595072c0961f4253"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/ChefKissInc/ForgedInvariant/releases/download/v1.5.0/ForgedInvariant-1.5.0-RELEASE.zip",
+    "sha256": "e684d3bf4c8a10e2b5e1d42ac5c9760e26ed2add8e40e319f3951ea8d41b04c7",
+    "files": {
+      "EFI/OC/Kexts/ForgedInvariant.kext/Contents/Info.plist": {
+        "member": "ForgedInvariant.kext/Contents/Info.plist",
+        "sha256": "dd7f755890aebd6ce938d65f8ba02c4e19bc9bd9f01032e8df22de91efaeb8d4"
+      },
+      "EFI/OC/Kexts/ForgedInvariant.kext/Contents/MacOS/ForgedInvariant": {
+        "member": "ForgedInvariant.kext/Contents/MacOS/ForgedInvariant",
+        "sha256": "328beb1265f1fc0c91053fe0308e953f3890ea588183ef2ba7259032ed539f37"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/USBToolBox/kext/releases/download/1.2.0/USBToolBox-1.2.0-RELEASE.zip",
+    "sha256": "c315a3a5acfd496dd97d0d19b4fbd1d487103d2fd541c5651583d4c9cebcfe07",
+    "files": {
+      "EFI/OC/Kexts/USBToolBox.kext/Contents/Info.plist": {
+        "member": "USBToolBox.kext/Contents/Info.plist",
+        "sha256": "f6095d4d3b026aa05169a71b32313d343ab4ac114a2be667dd64479d6643cab3"
+      },
+      "EFI/OC/Kexts/USBToolBox.kext/Contents/MacOS/USBToolBox": {
+        "member": "USBToolBox.kext/Contents/MacOS/USBToolBox",
+        "sha256": "c5c8dc205a079ee3f90b7875fb5ff622e4f15d32f29cf519123dab2822c422b7"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/VoodooI2C/VoodooI2C/releases/download/v2.9.1/VoodooI2C-2.9.1-RELEASE.zip",
+    "sha256": "368e5eb60794583c340764813bd7e8244e94d3d3c06ea5b67034addd539487f4",
+    "files": {
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/Info.plist": {
+        "member": "VoodooI2C.kext/Contents/Info.plist",
+        "sha256": "5aebc0b113bed3e90a037398de1a80d2b48813c069c4d955200720057725235c"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/MacOS/VoodooI2C": {
+        "member": "VoodooI2C.kext/Contents/MacOS/VoodooI2C",
+        "sha256": "78213b539c31a158bd3fce3fea7bf0da8380c442a94f2b13ddd91d43717c9037"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/_CodeSignature/CodeResources": {
+        "member": "VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/_CodeSignature/CodeResources",
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/Info.plist": {
+        "member": "VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/Info.plist",
+        "sha256": "e16709c9bc30545ed84857be7a1e7d88da4641349301d093ba62a421aa70812a"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/MacOS/VoodooGPIO": {
+        "member": "VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/MacOS/VoodooGPIO",
+        "sha256": "4fabb5f4704f62956931abc84ea8248202d0a4a44546c7062a9e6665aa8423da"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/_CodeSignature/CodeResources": {
+        "member": "VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/_CodeSignature/CodeResources",
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/Info.plist": {
+        "member": "VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/Info.plist",
+        "sha256": "d2673dc757b113df1df0ef1c8a218d80b9c5aef6abe5f515a64787a8cd10cc66"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/MacOS/VoodooI2CServices": {
+        "member": "VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/MacOS/VoodooI2CServices",
+        "sha256": "20c1544ab48ea9fdfb3498436e23d76f11d309d5adcdc8a4da35f8e4be7945f5"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources": {
+        "member": "VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources",
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist": {
+        "member": "VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist",
+        "sha256": "8eb279b036ced4bc790132d5839322b97f62d0a91f334092e6a098d7fed43f37"
+      },
+      "EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput": {
+        "member": "VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput",
+        "sha256": "fbdd452f575139cd32c56a4b059b794be884262fb8e335d469dd4bfe4004853f"
+      },
+      "EFI/OC/Kexts/VoodooI2CHID.kext/Contents/_CodeSignature/CodeResources": {
+        "member": "VoodooI2CHID.kext/Contents/_CodeSignature/CodeResources",
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+      },
+      "EFI/OC/Kexts/VoodooI2CHID.kext/Contents/Info.plist": {
+        "member": "VoodooI2CHID.kext/Contents/Info.plist",
+        "sha256": "5c9e6eea43bcfb48740a860b6a622579b7b837afe93825d093b38c3be206c807"
+      },
+      "EFI/OC/Kexts/VoodooI2CHID.kext/Contents/MacOS/VoodooI2CHID": {
+        "member": "VoodooI2CHID.kext/Contents/MacOS/VoodooI2CHID",
+        "sha256": "65975f7018ef10e2f058f46492f52fe49a5e5e2680dc7cf66af12b167f1d7f0a"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/TomHeaven/HoRNDIS/releases/download/rel9.3_2/Release.zip",
+    "sha256": "8f9641ab02744ec6a6e74a1480babf36fbf8228533079ba0782ba016cf2968c3",
+    "files": {
+      "EFI/OC/Kexts/HoRNDIS.kext/Contents/_CodeSignature/CodeResources": {
+        "member": "Release/HoRNDIS.kext/Contents/_CodeSignature/CodeResources",
+        "sha256": "4796143656150245518cb643f15c2e6b063e9dd954692a10e607a41783431e36"
+      },
+      "EFI/OC/Kexts/HoRNDIS.kext/Contents/Info.plist": {
+        "member": "Release/HoRNDIS.kext/Contents/Info.plist",
+        "sha256": "4d7f56582a6c14b94f82a9a0484ab523b129568d5f974620fe177199dc6dad3e"
+      },
+      "EFI/OC/Kexts/HoRNDIS.kext/Contents/MacOS/HoRNDIS": {
+        "member": "Release/HoRNDIS.kext/Contents/MacOS/HoRNDIS",
+        "sha256": "d7ec97a3a6c26a96e806d7a660ad26d13863352bba539e9ba10ea3c3b66a1408"
+      },
+      "EFI/OC/Kexts/HoRNDIS.kext/Contents/Resources/Supporting Files/HoRNDIS-Info.plist": {
+        "member": "Release/HoRNDIS.kext/Contents/Resources/Supporting Files/HoRNDIS-Info.plist",
+        "sha256": "ac34aa7dd56118ce530f50b1a364a5ff3e45d6e470b9d3ba7853f9271ea99010"
+      },
+      "EFI/OC/Kexts/HoRNDIS.kext/Contents/Resources/Supporting Files/HoRNDIS-Prefix.pch": {
+        "member": "Release/HoRNDIS.kext/Contents/Resources/Supporting Files/HoRNDIS-Prefix.pch",
+        "sha256": "cdd097a46ade6134e3b8ddd3f7b35cd3faf86810aa4b3704418d9ec3d5e1d459"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/luuumi-dev/nullarc/releases/download/v0.4.0-alpha/PhxBringup.kext-0.4.0-alpha.zip",
+    "sha256": "e1fcd008b82fb7a7df165369d1657e3580798de9ed1cfc07be1f8e92dccb6ada",
+    "files": {
+      "EFI/OC/Kexts/PhxBringup.kext/Contents/Info.plist": {
+        "member": "PhxBringup.kext/Contents/Info.plist",
+        "sha256": "aaeef27a947e0a2a70b358628ff21216a5edaf0a5d65f32651f8654cef654af7"
+      },
+      "EFI/OC/Kexts/PhxBringup.kext/Contents/MacOS/PhxBringup": {
+        "member": "PhxBringup.kext/Contents/MacOS/PhxBringup",
+        "sha256": "4a88035fd2ead990b8c44b638c9283d579b14d6ba4f0b48d78d6435a3a44a412"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/emulatorchen/IntelBluetoothFirmware/releases/download/2.5.2-dlc-fix/IntelBluetoothFirmware-2.5.2-RELEASE.zip",
+    "sha256": "97011f88e98545a6a38c6b9f5eda390dba57102b9672fac821bfc3284ec422be",
+    "files": {
+      "EFI/OC/Kexts/IntelBluetoothFirmware.kext/Contents/MacOS/IntelBluetoothFirmware": {
+        "member": "IntelBluetoothFirmware.kext/Contents/MacOS/IntelBluetoothFirmware",
+        "sha256": "7486f20d31e4fe5721f775f4bbc4e6d0ec19eab4479cdd0dcf55b2a8581ffec5"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/acidanthera/BrcmPatchRAM/releases/download/2.7.2/BrcmPatchRAM-2.7.2-RELEASE.zip",
+    "sha256": "e1c1c55347526d031a8ae2fdd1f52efa3019161e497fb38e1cfa809752f8af21",
+    "files": {
+      "EFI/OC/Kexts/BlueToolFixup.kext/Contents/MacOS/BlueToolFixup": {
+        "member": "BlueToolFixup.kext/Contents/MacOS/BlueToolFixup",
+        "sha256": "f3244382a43866138ff449b14f1e54fb069ad3e4b14cbc753858650efdbbce52"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/retropineaple/ForbiddenItlwm/releases/download/v0.6.0-beta.2/BTLEAdvFixup-0.9.3-Tahoe.zip",
+    "sha256": "d63bb5a5eae5931934ceffaa0a26789b8cae091e31f59fd4b844383ad1d68ae9",
+    "files": {
+      "EFI/OC/Kexts/BTLEAdvFixup.kext/Contents/MacOS/BTLEAdvFixup": {
+        "member": "BTLEAdvFixup.kext/Contents/MacOS/BTLEAdvFixup",
+        "sha256": "5cd48faa2220b65cd949ebd38b042a958438af4d9e19bd8c642557c4aa70ffd1"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/retropineaple/ForbiddenItlwm/releases/download/v0.6.0-beta.2/ForbiddenItlwm-0.6.0-beta.2-Tahoe.zip",
+    "sha256": "27c99238c20927e41e706ebc7e28eaab61b0f1321aa11c2b9379c65ff5879f66",
+    "files": {
+      "EFI/OC/Kexts/ForbiddenItlwm.kext/Contents/MacOS/ForbiddenItlwm": {
+        "member": "ForbiddenItlwm.kext/Contents/MacOS/ForbiddenItlwm",
+        "sha256": "989cf17a2a549a6b947ca012f2e4fd6ce1dbfc87399dd2af7c0016961f97d863"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/MonkaKokosowa/XhciNudge/releases/download/1.0/XhciNudge-1.0.0.zip",
+    "sha256": "271659aec947aa2d01300eadb514b138909e6322305163ddcab653403251bd1f",
+    "files": {
+      "EFI/OC/Kexts/XhciNudge.kext/Contents/MacOS/XhciNudge": {
+        "member": "XhciNudge.kext/Contents/MacOS/XhciNudge",
+        "sha256": "a233ff60358b8fe131f636f374cee66912ef7ab8b2b20b3a27620ce964984afd"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/acidanthera/VoodooPS2/releases/download/2.3.7/VoodooPS2Controller-2.3.7-RELEASE.zip",
+    "sha256": "d5483298736ba4b3b82c7203d9a46968c668fb7af732b8b22c2096deb0acf83f",
+    "files": {
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/Info.plist": {
+        "member": "VoodooPS2Controller.kext/Contents/Info.plist",
+        "sha256": "8aa06881627cd459cdf293a2903037d2df47548ee5b3c66be179f86375fb3aa7"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/MacOS/VoodooPS2Controller": {
+        "member": "VoodooPS2Controller.kext/Contents/MacOS/VoodooPS2Controller",
+        "sha256": "f78d6bf95fb403eccdebf3590015606d5ce4ea73bb78c3f1f20f03ce037b4e24"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources": {
+        "member": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources",
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist": {
+        "member": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist",
+        "sha256": "fd8d708b536ee2fc0937d96d2ec2346d18b61bf18d873ca39234b4257826f9bd"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput": {
+        "member": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput",
+        "sha256": "0fc8f18ed84ac3ba5141e19c89e498cc53c05adbb1e29950783071064e59e1f6"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/Info.plist": {
+        "member": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/Info.plist",
+        "sha256": "2fc964e03056dbd290df3891f8d105eab9bdd471160db2cdf2b21fdd634fbf87"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/MacOS/VoodooPS2Keyboard": {
+        "member": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/MacOS/VoodooPS2Keyboard",
+        "sha256": "b55758219af1b12b1c0e5e116ff1ee65dc5d8484086e5231103c242a5858a1e5"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/Info.plist": {
+        "member": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/Info.plist",
+        "sha256": "7618e2f0e2fcfa0472fa4b34781920fb478ec55a82e6979d5fc0dcede00f43f7"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/MacOS/VoodooPS2Mouse": {
+        "member": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/MacOS/VoodooPS2Mouse",
+        "sha256": "d729d7ba0def0e3c71ded9b4908a1752ac4784c93e631fc7f07fcf7b9fdf89e2"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/Info.plist": {
+        "member": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/Info.plist",
+        "sha256": "1ec54c8c364bbd407c772039b33e38e538752b9de84f6320ee5c43050aedd9f0"
+      },
+      "EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/MacOS/VoodooPS2Trackpad": {
+        "member": "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/MacOS/VoodooPS2Trackpad",
+        "sha256": "718585e226a091298ad1c5a674e53205be30249979838cea1ba18eb298175eb1"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/acidanthera/Lilu/releases/download/1.7.2/Lilu-1.7.2-RELEASE.zip",
+    "sha256": "53967d7dcfaab01023a33df2e969a89522f13d6654a6a56ac4711b62dabf3ab8",
+    "files": {
+      "EFI/OC/Kexts/Lilu.kext/Contents/Info.plist": {
+        "member": "Lilu.kext/Contents/Info.plist",
+        "sha256": "b7798755a2dda3006783341efa5837444ceda21c7a743651276e1accbb8d4dd3"
+      },
+      "EFI/OC/Kexts/Lilu.kext/Contents/MacOS/Lilu": {
+        "member": "Lilu.kext/Contents/MacOS/Lilu",
+        "sha256": "ff98508b40a1eb5fb477029db8886412520f8e39965279ea331c99e3d2e3b274"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/acidanthera/VirtualSMC/releases/download/1.3.8/VirtualSMC-1.3.8-RELEASE.zip",
+    "sha256": "2e29a8aaf91b4eb0bcdf5913ed17e70f5cf76531122acd4132eff7813a54de8b",
+    "files": {
+      "EFI/OC/Kexts/VirtualSMC.kext/Contents/Info.plist": {
+        "member": "Kexts/VirtualSMC.kext/Contents/Info.plist",
+        "sha256": "6d3cf2e1ee61a428b3477cb332fbd285eba715ecfceb12a05cc7b3fda2b95f89"
+      },
+      "EFI/OC/Kexts/VirtualSMC.kext/Contents/MacOS/VirtualSMC": {
+        "member": "Kexts/VirtualSMC.kext/Contents/MacOS/VirtualSMC",
+        "sha256": "b55cd581b0127fe1a0ac050a69129ba5012b4547f6a9d1abfa3ad41849a2a246"
+      },
+      "EFI/OC/Kexts/SMCBatteryManager.kext/Contents/Info.plist": {
+        "member": "Kexts/SMCBatteryManager.kext/Contents/Info.plist",
+        "sha256": "99f711358e27a5307f430472360ce99648f850bb0307ed84d7eaa6b014417f26"
+      },
+      "EFI/OC/Kexts/SMCBatteryManager.kext/Contents/MacOS/SMCBatteryManager": {
+        "member": "Kexts/SMCBatteryManager.kext/Contents/MacOS/SMCBatteryManager",
+        "sha256": "2f0b3525cd85e803b8247ff959f16e3f434d3b8126328e11086b9c0bfddf9216"
+      },
+      "EFI/OC/Kexts/SMCBatteryManager.kext/Contents/Resources/SSDT-BATC.dsl": {
+        "member": "Kexts/SMCBatteryManager.kext/Contents/Resources/SSDT-BATC.dsl",
+        "sha256": "e66bbd57e5c6ef0ddbc3a6e51f68fe875d84709b73d4772e1c193269f2a89e4b"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/acidanthera/NVMeFix/releases/download/1.1.3/NVMeFix-1.1.3-RELEASE.zip",
+    "sha256": "e1d5657ab7ac31f69771708f7b80bf218ab9aa0b8e4c4fe6ff943983037e3dfb",
+    "files": {
+      "EFI/OC/Kexts/NVMeFix.kext/Contents/Info.plist": {
+        "member": "NVMeFix.kext/Contents/Info.plist",
+        "sha256": "37c3f3927190728514ea7a352ae3909c23c9c76bb6305cea4d7445fabdb31a30"
+      },
+      "EFI/OC/Kexts/NVMeFix.kext/Contents/MacOS/NVMeFix": {
+        "member": "NVMeFix.kext/Contents/MacOS/NVMeFix",
+        "sha256": "3e2632eaf09c6cb87e88c5681371e194c53b6653ddbf8693f0bbb1ae42470ef8"
+      }
+    }
+  },
+  {
+    "url": "https://github.com/acidanthera/RestrictEvents/releases/download/1.1.6/RestrictEvents-1.1.6-RELEASE.zip",
+    "sha256": "98170dfae195ddd28b5d95e3f040125a13ca783bcb9bd1e5b8c588e217b14ee6",
+    "files": {
+      "EFI/OC/Kexts/RestrictEvents.kext/Contents/Info.plist": {
+        "member": "RestrictEvents.kext/Contents/Info.plist",
+        "sha256": "1170129a0011df37bf8575084c731a5d490384407c07b7a778d8ec7db0f6ce19"
+      },
+      "EFI/OC/Kexts/RestrictEvents.kext/Contents/MacOS/RestrictEvents": {
+        "member": "RestrictEvents.kext/Contents/MacOS/RestrictEvents",
+        "sha256": "16979236f272c0500913882e5347e38d5bad1841ea619fe5a0311e9f768aea4e"
+      }
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi/d631f900a4eb36012ab6ba247eb48122b8600c3c/EFI/OC/Kexts/VoodooHDA_BL.kext/Contents/MacOS/VoodooHDA_BL",
+    "sha256": "1c2c8e879c4541dfea9fa35773cbbce19533584ddbdac33992629e41622ed74b",
+    "files": {
+      "EFI/OC/Kexts/VoodooHDA_BL.kext/Contents/MacOS/VoodooHDA_BL": {
+        "sha256": "1c2c8e879c4541dfea9fa35773cbbce19533584ddbdac33992629e41622ed74b"
+      }
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi/d631f900a4eb36012ab6ba247eb48122b8600c3c/EFI/OC/Kexts/VoodooHDA_BL.kext/Contents/Info.plist",
+    "sha256": "ab75ffa35d24dc439b0ab156178b5313cf8d160ec920764238b25b0a372a2396",
+    "files": {
+      "EFI/OC/Kexts/VoodooHDA_BL.kext/Contents/Info.plist": {
+        "sha256": "ab75ffa35d24dc439b0ab156178b5313cf8d160ec920764238b25b0a372a2396",
+        "normalize_newlines": true
+      }
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi/d631f900a4eb36012ab6ba247eb48122b8600c3c/EFI/OC/Kexts/BTLEAdvFixup.kext/Contents/Info.plist",
+    "sha256": "2a546461ed68778268d10739f5b92dfc14397e8eaff6ac651ed4fd6ea923af3d",
+    "files": {
+      "EFI/OC/Kexts/BTLEAdvFixup.kext/Contents/Info.plist": {
+        "sha256": "2a546461ed68778268d10739f5b92dfc14397e8eaff6ac651ed4fd6ea923af3d",
+        "normalize_newlines": true
+      }
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi/d631f900a4eb36012ab6ba247eb48122b8600c3c/EFI/OC/Kexts/ForbiddenItlwm.kext/Contents/Info.plist",
+    "sha256": "9c1253ebb7912bd75d0116c01c89df9898ede824faa34a82b26000eea37bdcaf",
+    "files": {
+      "EFI/OC/Kexts/ForbiddenItlwm.kext/Contents/Info.plist": {
+        "sha256": "9c1253ebb7912bd75d0116c01c89df9898ede824faa34a82b26000eea37bdcaf",
+        "normalize_newlines": true
+      }
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi/d631f900a4eb36012ab6ba247eb48122b8600c3c/EFI/OC/Kexts/IntelBluetoothFirmware.kext/Contents/Info.plist",
+    "sha256": "dc2105244fe66274f603518a401dead6bcbb20b05a41749e9db350b05e33752b",
+    "files": {
+      "EFI/OC/Kexts/IntelBluetoothFirmware.kext/Contents/Info.plist": {
+        "sha256": "dc2105244fe66274f603518a401dead6bcbb20b05a41749e9db350b05e33752b",
+        "normalize_newlines": true
+      }
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi/d631f900a4eb36012ab6ba247eb48122b8600c3c/EFI/OC/Kexts/BlueToolFixup.kext/Contents/Info.plist",
+    "sha256": "a0fcdb909add9c5201f1b188f0a8a70ded80a29f29b9b8a74960cc2aff8ed85a",
+    "files": {
+      "EFI/OC/Kexts/BlueToolFixup.kext/Contents/Info.plist": {
+        "sha256": "a0fcdb909add9c5201f1b188f0a8a70ded80a29f29b9b8a74960cc2aff8ed85a",
+        "normalize_newlines": true
+      }
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bbbbrt/mechrevo-wujie14pro-7840hs-780m-hackintosh-efi/d631f900a4eb36012ab6ba247eb48122b8600c3c/EFI/OC/Kexts/XhciNudge.kext/Contents/Info.plist",
+    "sha256": "f1b4c117c8a586dc28e63f86d3aceacb2d11917b67cac4d266405cfe468078e8",
+    "files": {
+      "EFI/OC/Kexts/XhciNudge.kext/Contents/Info.plist": {
+        "sha256": "f1b4c117c8a586dc28e63f86d3aceacb2d11917b67cac4d266405cfe468078e8",
+        "normalize_newlines": true
+      }
+    }
+  }
+]
